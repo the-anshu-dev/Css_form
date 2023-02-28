@@ -1,0 +1,149 @@
+
+/* Link is in Description...  */
+/* Google font : Cookie + Raleway  */
+
+@import url(https://fonts.googleapis.com/css?family=Cookie|Raleway:300,700,400);
+
+
+*
+{
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 18px;
+    height: 100%;
+}
+
+
+body
+{
+    background: url('img/bg.jpg') center no-repeat;
+    background-size: cover;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container
+{
+    background: rgba(255,255,255,0.753);
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(51,51,51,0.25);
+    display: block;
+    max-width: 480px;
+    overflow: hidden;
+    padding: 2em;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    z-index: 1;
+    width: 98%;
+}
+
+h1 img
+{
+    height: auto;
+    margin: 0 auto;
+    max-width: 240px;
+    width: 100%;
+}
+
+h1
+{
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+form label
+{
+    border-bottom: 1px solid#333;
+    display: block;
+    font-size: 1.50em;
+    margin-bottom: 0.5em;
+}
+
+form label.col-one-half
+{
+    float:left;
+    width: 50%;
+}
+form label.col-one-half:nth-of-type(even)
+{
+    border-left: 1px solid #333;
+    padding-left: 0.25em;
+}
+
+form label input
+{
+    background: none;
+    border: none;
+    line-height: 1em;
+    font-size: 0.65em;
+    padding: 0.125em 0.25em;
+    width: 100%;
+    color: brown;
+}
+
+form label input:focus
+{
+    outline: none;
+}
+
+form label input::placeholder
+{
+    color: rgb(104, 102, 102);
+}
+
+form label:hover
+{
+    border-color: brown;
+}
+
+form label span.label-text
+{
+    display: block;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-left: 0.3em;
+    text-transform: uppercase;
+}
+
+form  button.submit
+{
+    background: rgba(255,255,255,0.25);
+    border: 1px solid #333;
+    border-radius: 5px;
+    line-height: 1em;
+    padding: 0.5em 0.5em;
+}
+
+form button:hover
+{
+    background: #333;
+    color: #fff;
+    outline: none;
+}
+
+.copyright
+{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 0.85em;
+    word-spacing: 3px;
+}
+
+.copyright:hover{
+    color: brown;
+}
